@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: stg_transactions
+    descriptions: Transactions in the Ethereum Blockchain
+    columns:
+    - name: hash
+      descriptions: >
+        This is a very long multiline description about the unique
+        identofier of each transaction in the Ethereum blockchain
+      data_tests:
+        - unique
+        - not_null
+
