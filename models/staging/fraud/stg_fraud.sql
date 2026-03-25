@@ -1,3 +1,10 @@
+{{
+  config(
+	group = 'fraud_risk', access='private'
+	)
+}}
+
+
 select
 t.from_address,
 c.bytecode,
