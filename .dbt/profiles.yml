@@ -1,6 +1,5 @@
 eth:
   outputs:
-
     ci:
       account: KNGBIPE-PR97600
       database: CI
