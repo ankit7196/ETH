@@ -1,0 +1,14 @@
+eth:
+  outputs:
+
+    ci:
+      account: KNGBIPE-PR97600
+      database: CI
+      private_key_path: "{{ env_var('DBT_PRIVATE_KEY_PATH')}}"
+      role: ACCOUNTADMIN
+      schema: CI_SCHEMA
+      threads: 1
+      type: snowflake
+      user: ANKDBT
+      warehouse: COMPUTE_WH
+  target: dev
