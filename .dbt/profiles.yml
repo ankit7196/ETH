@@ -11,4 +11,4 @@ eth:
       type: snowflake
       user: ANKDBT
       warehouse: COMPUTE_WH
-  target: dev
+  target: ci
