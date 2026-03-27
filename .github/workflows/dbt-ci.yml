@@ -43,4 +43,3 @@ jobs:
 
       - name: Run dbt
         run: dbt build --target ci
-
